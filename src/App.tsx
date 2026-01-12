@@ -50,30 +50,7 @@ function App() {
   });
 
   return (
-    <>
-      <List
-        style={{ width: '100%', backgroundColor: 'white' }}
-        itemLayout="horizontal"
-        dataSource={notes}
-        renderItem={(item: Note) => (
-          <List.Item
-          style={{ color: 'white', paddingLeft: '15%'}}>
-            <List.Item.Meta
-              avatar={
-                <Avatar
-                  src={`https://www.flaticon.com/free-icon/user_149071?term=avatar&page=1&position=3&origin=tag&related_id=149071`}
-                />
-              }
-              title={item.title}
-              description={item.description}
-            />
-            {/* <div>{item.createdAt}</div> */}
-            {/* <div>{item.updatedAt.toLocaleDateString()}</div> */}
-            {/* <div>{item.author}</div> */}
-          </List.Item>
-        )}
-      />
-    </>
+    <></>
   );
 }
 

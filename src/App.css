@@ -1,3 +1,16 @@
-#root {
-  width: 100vw;
+:root {
+  --heading-font: 'Lora', sans-serif;
+  --body-font: 'Nunito', sans-serif;
+  --other-font: 'Montserrat', sans-serif;
+  --frontrow-font: 'Open Sans', sans-serif;
+  --bundle-primary: #039869;
+  --bundle-secondary: #63ba99;
+  --bundle-text: #000000bf;
+
+  --yellow-background: #f3eee0;
+}
+
+html {
+  font-size: 10px;
+  letter-spacing: 0.06rem;
 }
