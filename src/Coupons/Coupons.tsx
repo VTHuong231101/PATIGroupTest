@@ -1,5 +1,9 @@
+import couponImage from '../assets/images/coupon.avif';
+
 export const Coupons = () => {
-  <div className="coupon">
-    <img src="images/coupon.avif" alt="" />
-  </div>;
+  return (
+    <div className="coupon">
+      <img src={couponImage} alt="" />
+    </div>
+  );
 };
