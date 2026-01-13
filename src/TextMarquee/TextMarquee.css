@@ -1,0 +1,19 @@
+/* Animation */
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.text-marquee {
+  width: 100%;
+  overflow: hidden;
+}
+
+.logos-wrap {
+  width: max-content;
+  animation: scroll 20s linear infinite;
+}
