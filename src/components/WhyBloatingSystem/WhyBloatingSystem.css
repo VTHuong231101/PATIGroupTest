@@ -1,0 +1,44 @@
+ul.check-list li {
+  background-image: url('../../assets/images/check-icon.png');
+  padding-left: 32px;
+  color: #0c7c00;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: var(--body-font);
+  line-height: 1.3em;
+  margin: 8px 0;
+}
+
+ul.ignore-list li {
+  background-image: url('../../assets/images/cross-icon.png');
+  padding-left: 32px;
+  color: #a60003;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: var(--body-font);
+  line-height: 1.3em;
+  margin: 8px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  p {
+    font-size: 16px;
+    font-family: var(--body-font);
+    line-height: 1.3em;
+    margin: 8px 0;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .why-bloating-system__grid p {
+    font-size: 18px;
+    font-family: var(--body-font);
+    line-height: 1.3em;
+    margin: 8px 0;
+  }
+}
