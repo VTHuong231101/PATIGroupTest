@@ -1,4 +1,4 @@
-import logo from '../assets/images/logo.avif';
+import logo from '../../assets/images/logo.avif';
 
 export const Header = () => {
   return (

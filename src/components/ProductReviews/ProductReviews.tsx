@@ -1,6 +1,6 @@
-import stars from '../assets/images/stars-review.png';
-import verifiedIcon from '../assets/images/verified.avif';
-import reviewOwner from '../assets/images/review-owner.webp';
+import stars from '../../assets/images/stars-review.png';
+import verifiedIcon from '../../assets/images/verified.avif';
+import reviewOwner from '../../assets/images/review-owner.webp';
 
 export const ProductReviews = () => {
   return (

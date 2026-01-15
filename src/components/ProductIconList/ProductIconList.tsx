@@ -1,5 +1,5 @@
-import daysIcon from '../assets/images/60-days.webp';
-import americaFrame from '../assets/images/Frame-american.webp';
+import daysIcon from '../../assets/images/60-days.webp';
+import americaFrame from '../../assets/images/Frame-american.webp';
 
 export const ProductIconList = () => {
   return (

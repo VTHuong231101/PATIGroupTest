@@ -32,7 +32,7 @@ export const ProductDelivery = () => {
       <div className="delivery-text text-[12px] text-black font-(family-name:--body-font)">
         <p>
           Delivered on
-          <span className="bg-(--bundle-primary) px-[4px] py-[2px] text-white rounded-[4px]">
+          <span className="bg-(--dark-green) px-[4px] py-[2px] text-white rounded-[4px]">
             Wednesday, 14 January
           </span>
           with Express Shipping
