@@ -1,12 +1,16 @@
 import './App.css';
-import { ProductInformation } from './ProductInformation/ProductInformation';
-import { TextMarquee } from './TextMarquee/TextMarquee';
+import { Header } from './components/Header/Header';
+import { TextMarquee } from './components/TextMarquee/TextMarquee';
+import { ProductInformation } from './containers/ProductInformation/ProductInformation';
+import { WhyBloating } from './containers/WhyBloating/WhyBloating';
 
 function App() {
   return (
-    <div className="app">
+    <div className="app w-full">
+      <Header />
       <ProductInformation />
       <TextMarquee />
+      <WhyBloating />
     </div>
   );
 }

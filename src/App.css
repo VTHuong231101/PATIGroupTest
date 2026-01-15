@@ -1,11 +1,11 @@
 @import 'tailwindcss';
 
 :root {
-  --heading-font: 'Lora', sans-serif;
+  --heading-font: 'Lora', serif;
   --body-font: 'Nunito', sans-serif;
   --other-font: 'Montserrat', sans-serif;
   --frontrow-font: 'Open Sans', sans-serif;
-  --bundle-primary: #039869;
+  --dark-green: #039869;
   --bundle-secondary: #63ba99;
   --bundle-text: #000000bf;
 
